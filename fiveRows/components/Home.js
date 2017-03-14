@@ -5,6 +5,9 @@ import {
   Text,
   View
 } from 'react-native';
+import {
+  Button
+} from 'react-native-elements'
 
 export default class Home extends Component {
   render() {
@@ -17,9 +20,14 @@ export default class Home extends Component {
           To get started, edit index.android.js
         </Text>
         <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
+          wsdfbasdsadasdasd
         </Text>
+        <Button
+          raised
+          icon={{name: 'cached'}}
+          title='RAISED WITH ICON'
+          backgroundColor = '#589632'
+         />
       </View>
     );
   }
@@ -30,16 +38,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#123485',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 50,
     textAlign: 'center',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
+    color: '#000000',
     marginBottom: 5,
   },
 });

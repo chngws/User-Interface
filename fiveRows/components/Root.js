@@ -6,10 +6,12 @@ import {
   View
 } from 'react-native';
 import Home from './Home'
+import TabsExample from './TabsExample'
+import CardsExample from './CardsExample'
 export default class fiveRows extends Component {
   render() {
     return (
-    <Home />
+    <CardsExample />
     );
   }
 }
